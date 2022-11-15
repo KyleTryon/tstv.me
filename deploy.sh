@@ -12,7 +12,7 @@ cd dist
 # place .nojekyll to bypass Jekyll processing
 echo > .nojekyll
 
-echo 'www.hailsquid.com' > CNAME
+echo 'www.tstv.me.com' > CNAME
 
 git init
 git checkout -B main
@@ -23,6 +23,6 @@ git commit -m 'deploy'
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git main
 
 
-git push -f git@github.com:KyleTryon/HailSquid-Website.git main:gh-pages
+git push -f git@github.com:KyleTryon/tstv.me.git main:gh-pages
 
 cd -
